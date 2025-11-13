@@ -59,6 +59,13 @@ Install autossh to connect to remote server:
 sudo apt update
 sudo apt install autossh
 ```
+Optional: Install required python packages in a virtual environment:
+```
+./create_venv.sh
+```
+If you don't want to use a virtual environment install the required python packages globally:
+
+
 Install OpenCV for python for the live video stream:
 ```bash
 sudo apt update
